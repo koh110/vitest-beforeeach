@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "strict": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "**/*.test.ts", "**/*.test.seeds.ts"]
+}

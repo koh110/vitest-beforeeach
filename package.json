@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "vitest-beforeeach",
+  "scripts": {
+    "build": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "pretest": "npm run build",
+    "test": "vitest run --config=./vitest.config.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "prisma": "^6.11.1",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.11.1"
+  }
+}
